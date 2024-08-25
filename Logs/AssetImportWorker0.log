@@ -1,0 +1,624 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.23f1 (dbb3f7c5b5c6) revision 14398455'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16150 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Projects/repositories/traffic-system-automation
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58366
+Successfully changed project path to: C:/Projects/repositories/traffic-system-automation
+C:/Projects/repositories/traffic-system-automation
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [23500] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 404816863 [EditorId] 404816863 [Version] 1048832 [Id] WindowsEditor(7,OMEN-15-RZNV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [23500] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 404816863 [EditorId] 404816863 [Version] 1048832 [Id] WindowsEditor(7,OMEN-15-RZNV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 19.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.23f1 (dbb3f7c5b5c6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Projects/repositories/traffic-system-automation/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Vendor:   NVIDIA
+    VRAM:     5955 MB
+    Driver:   31.0.15.5186
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56212
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.021175 seconds.
+- Loaded All Assemblies, in  0.598 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.407 seconds
+Domain Reload Profiling: 1001ms
+	BeginReloadAssembly (177ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (104ms)
+	LoadAllAssembliesAndSetupDomain (244ms)
+		LoadAssemblies (173ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (240ms)
+			TypeCache.Refresh (239ms)
+				TypeCache.ScanAssembly (218ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (407ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (321ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (222ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.539 seconds
+Refreshing native plugins compatible for Editor in 7.36 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.983 seconds
+Domain Reload Profiling: 2499ms
+	BeginReloadAssembly (534ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (74ms)
+	RebuildCommonClasses (91ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (152ms)
+	LoadAllAssembliesAndSetupDomain (719ms)
+		LoadAssemblies (773ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (288ms)
+			TypeCache.Refresh (255ms)
+				TypeCache.ScanAssembly (227ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (984ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (745ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (575ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 7.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3477 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (57.7 KB). Loaded Objects now: 3963.
+Memory consumption went from 148.0 MB to 147.9 MB.
+Total: 3.940500 ms (FindLiveObjects: 0.342100 ms CreateObjectMapping: 0.403500 ms MarkObjects: 3.069500 ms  DeleteObjects: 0.124100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 292715.564220 seconds.
+  path: Assets/Nebula - Free low poly car pack/Prefabs/Wheels/WheelsSimple.prefab
+  artifactKey: Guid(70beceeeaeedc4f4f8a96471175d85ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nebula - Free low poly car pack/Prefabs/Wheels/WheelsSimple.prefab using Guid(70beceeeaeedc4f4f8a96471175d85ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '937907f2a03500f7684b43c48032b33d') in 0.158656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Nebula - Free low poly car pack/Prefabs/Wheels/WheelsHeavy.prefab
+  artifactKey: Guid(074cfa87c2b557944aab0d2d94a2e769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nebula - Free low poly car pack/Prefabs/Wheels/WheelsHeavy.prefab using Guid(074cfa87c2b557944aab0d2d94a2e769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd75a51e2cc30abb7cc26afb2ea4d680a') in 0.018293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Nebula - Free low poly car pack/Prefabs/Attachments/LorryTrailer.prefab
+  artifactKey: Guid(bcdcb55430133ca49a270743373eaa9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nebula - Free low poly car pack/Prefabs/Attachments/LorryTrailer.prefab using Guid(bcdcb55430133ca49a270743373eaa9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49ce0a25a2cadb90810ef36c4c093edd') in 0.024909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 78
+========================================================================
+Received Import Request.
+  Time since last request: 4.729471 seconds.
+  path: Assets/Nebula - Free low poly car pack/Textures/Pastel/CarsBlue.png
+  artifactKey: Guid(55c960bec3bbb0945b406cf377496c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nebula - Free low poly car pack/Textures/Pastel/CarsBlue.png using Guid(55c960bec3bbb0945b406cf377496c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e79250e878be2d73a3c72bde4cc896c1') in 0.026815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Nebula - Free low poly car pack/Textures/Pastel/CarsPink.png
+  artifactKey: Guid(9a6301875cb8f3941808a9fa2ef1c342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nebula - Free low poly car pack/Textures/Pastel/CarsPink.png using Guid(9a6301875cb8f3941808a9fa2ef1c342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e696107470988a23b999c0af0b8aa3') in 0.013317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Nebula - Free low poly car pack/Textures/Pastel/CarsOrange.png
+  artifactKey: Guid(0642603564ff2ab47ad0cf6c07634f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nebula - Free low poly car pack/Textures/Pastel/CarsOrange.png using Guid(0642603564ff2ab47ad0cf6c07634f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e38a5153cac7ced6350d680474f39fc0') in 0.016944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Nebula - Free low poly car pack/Textures/Pastel/CarsYellow.png
+  artifactKey: Guid(cd9ab9679dec0e94e96b454ab6c8b47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nebula - Free low poly car pack/Textures/Pastel/CarsYellow.png using Guid(cd9ab9679dec0e94e96b454ab6c8b47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a3e04bfe4ddbb8b72fb637f08b67ce') in 0.053623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.470960 seconds.
+  path: Assets/Nebula - Free low poly car pack/Textures/Saturated/CarsBlueSaturated.png
+  artifactKey: Guid(bf395d64c56de9c48afa234f8d3fe1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nebula - Free low poly car pack/Textures/Saturated/CarsBlueSaturated.png using Guid(bf395d64c56de9c48afa234f8d3fe1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44cc4ed1cacf9f56933a3f323bf06f2d') in 0.010475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Nebula - Free low poly car pack/Textures/Saturated/CarsYellowSaturated.png
+  artifactKey: Guid(39a071cf290f4d84a914bbe3086e5a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nebula - Free low poly car pack/Textures/Saturated/CarsYellowSaturated.png using Guid(39a071cf290f4d84a914bbe3086e5a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13838aefaae04088bb2d46d5124cdbc3') in 0.026635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Nebula - Free low poly car pack/Textures/Saturated/CarsGreenSaturated.png
+  artifactKey: Guid(362fb7540e8714c44b12202a09146d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nebula - Free low poly car pack/Textures/Saturated/CarsGreenSaturated.png using Guid(362fb7540e8714c44b12202a09146d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f75744aebd4aa356cdee7078c5b66c0') in 0.016211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.094518 seconds.
+  path: Assets/Nebula - Free low poly car pack/Textures/Special/CarsGreenBrown.png
+  artifactKey: Guid(ee374c863051c594882ebee4c1a55f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nebula - Free low poly car pack/Textures/Special/CarsGreenBrown.png using Guid(ee374c863051c594882ebee4c1a55f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '900259f8208649130a6eb4f5733477e7') in 0.008654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Nebula - Free low poly car pack/Textures/Special/CarsPurpleGreen.png
+  artifactKey: Guid(889ea53532db3d14a87fcae8dc74ca04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nebula - Free low poly car pack/Textures/Special/CarsPurpleGreen.png using Guid(889ea53532db3d14a87fcae8dc74ca04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3eda1edb0274e11a9f454c03b7860d5') in 0.021022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Nebula - Free low poly car pack/Textures/Special/CarsRedBlack.png
+  artifactKey: Guid(ab5a1c950a3bcea449d09c1d7551e4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nebula - Free low poly car pack/Textures/Special/CarsRedBlack.png using Guid(ab5a1c950a3bcea449d09c1d7551e4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f91d158209d183e179a08c21a63713e7') in 0.024806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.458461 seconds.
+  path: Assets/Nebula - Free low poly car pack/Textures/Saturated/DualColor/CarsBlueDualSaturated.png
+  artifactKey: Guid(d49fd642cd833494ab87a29f1f02963f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nebula - Free low poly car pack/Textures/Saturated/DualColor/CarsBlueDualSaturated.png using Guid(d49fd642cd833494ab87a29f1f02963f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ff9a811dc7bbf5b26409c2c0f6723e') in 0.007794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Nebula - Free low poly car pack/Textures/Saturated/DualColor/CarsYellowDualSaturated.png
+  artifactKey: Guid(858e4fe6f886fc14489eb25d61a13d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nebula - Free low poly car pack/Textures/Saturated/DualColor/CarsYellowDualSaturated.png using Guid(858e4fe6f886fc14489eb25d61a13d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2794dd082032a4d53d64b69971e70830') in 0.012216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Nebula - Free low poly car pack/Textures/Saturated/DualColor/CarsOrangeDualSaturated.png
+  artifactKey: Guid(ed1458192ed942a4a9c226d25fa49b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nebula - Free low poly car pack/Textures/Saturated/DualColor/CarsOrangeDualSaturated.png using Guid(ed1458192ed942a4a9c226d25fa49b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dd8dd218a2ac1db9106166451922a22') in 0.015402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Nebula - Free low poly car pack/Textures/Saturated/DualColor/CarsTurqouseDualSaturated.png
+  artifactKey: Guid(feac0e459e01b234abe3c2efe07e2ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nebula - Free low poly car pack/Textures/Saturated/DualColor/CarsTurqouseDualSaturated.png using Guid(feac0e459e01b234abe3c2efe07e2ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b796a4816987eb1eb739d09e52f6ae2') in 0.007642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 15.566223 seconds.
+  path: Assets/Nebula - Free low poly car pack/Meshes/Colliders/LorryCollider.fbx
+  artifactKey: Guid(cc9b9f7a190ecd744bd93dd5ab42360b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nebula - Free low poly car pack/Meshes/Colliders/LorryCollider.fbx using Guid(cc9b9f7a190ecd744bd93dd5ab42360b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '598fe84d09b31d2f6235a74c408f39c2') in 0.061865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Nebula - Free low poly car pack/Meshes/Colliders/MuscleCollider.fbx
+  artifactKey: Guid(50c7d23c0e322b249b7ed74f273ff296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nebula - Free low poly car pack/Meshes/Colliders/MuscleCollider.fbx using Guid(50c7d23c0e322b249b7ed74f273ff296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a8afe44d0e6bed007523e7122bf4c3') in 0.036313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.539151 seconds.
+  path: Assets/Nebula - Free low poly car pack/Meshes/Vehicles/Lorry.fbx
+  artifactKey: Guid(6a6fd4fbcf5f6fd4e863376f2e1dca4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nebula - Free low poly car pack/Meshes/Vehicles/Lorry.fbx using Guid(6a6fd4fbcf5f6fd4e863376f2e1dca4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'effaf333c6ae8bd32f4b7b8905cfb556') in 0.019527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Nebula - Free low poly car pack/Meshes/Vehicles/Police.fbx
+  artifactKey: Guid(f7fab8c883bf9b440b753065ca56aa78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nebula - Free low poly car pack/Meshes/Vehicles/Police.fbx using Guid(f7fab8c883bf9b440b753065ca56aa78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9a6877cab827f1b99a11132114766fc') in 0.016536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1.184807 seconds.
+  path: Assets/Nebula - Free low poly car pack/Meshes/Wheels/WheelsHeavy.fbx
+  artifactKey: Guid(4b0dc541d170bb147a247a16b8175b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nebula - Free low poly car pack/Meshes/Wheels/WheelsHeavy.fbx using Guid(4b0dc541d170bb147a247a16b8175b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e196c268dd1bf9042f1c69a9439ad5') in 0.061603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Nebula - Free low poly car pack/Meshes/Wheels/WheelsOrnate.fbx
+  artifactKey: Guid(6ce976d02634f314eb6acb0ffba306ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nebula - Free low poly car pack/Meshes/Wheels/WheelsOrnate.fbx using Guid(6ce976d02634f314eb6acb0ffba306ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f7aa8987809f1829e5be11e6528c39') in 0.059509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 3.170076 seconds.
+  path: Assets/Nebula - Free low poly car pack/Materials/MultiColor/CarsGreenBrown.mat
+  artifactKey: Guid(d2decc24b05c6d541958402e13ed9104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nebula - Free low poly car pack/Materials/MultiColor/CarsGreenBrown.mat using Guid(d2decc24b05c6d541958402e13ed9104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e4f8b6964399d2372f29e30b2eee96') in 0.035955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Nebula - Free low poly car pack/Materials/MultiColor/CarsWhiteBlue 1.mat
+  artifactKey: Guid(8ce71e160cd53de459653eb021a26eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nebula - Free low poly car pack/Materials/MultiColor/CarsWhiteBlue 1.mat using Guid(8ce71e160cd53de459653eb021a26eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f78b7733de1c43db674ebf608561281a') in 0.011176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.554632 seconds.
+  path: Assets/Nebula - Free low poly car pack/Materials/Pastel/CarsBlue.mat
+  artifactKey: Guid(b9d7e6b566a21df449db58aaf925bf34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nebula - Free low poly car pack/Materials/Pastel/CarsBlue.mat using Guid(b9d7e6b566a21df449db58aaf925bf34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d54840cb1c93c38228e97b69d30ef1') in 0.009103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Nebula - Free low poly car pack/Materials/Pastel/CarsPink.mat
+  artifactKey: Guid(53d8468d196f2f441a33d34cbe56bf0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nebula - Free low poly car pack/Materials/Pastel/CarsPink.mat using Guid(53d8468d196f2f441a33d34cbe56bf0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e65ecc4268d8352d3357a30385463e1a') in 0.010867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Nebula - Free low poly car pack/Materials/Pastel/CarsGreen.mat
+  artifactKey: Guid(666afcb4e4d92ae42b501365a71b421f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nebula - Free low poly car pack/Materials/Pastel/CarsGreen.mat using Guid(666afcb4e4d92ae42b501365a71b421f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c90aa2e17a95134d2db83000e24d20') in 0.009898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Nebula - Free low poly car pack/Materials/Pastel/CarsPurple.mat
+  artifactKey: Guid(f38f3f6e098daf84685f289f3f0f23f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nebula - Free low poly car pack/Materials/Pastel/CarsPurple.mat using Guid(f38f3f6e098daf84685f289f3f0f23f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15aedebaf3872a1a52b265cf12d2c9ce') in 0.011342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.901042 seconds.
+  path: Assets/Nebula - Free low poly car pack/Materials/Saturated/CarsBlueSaturated.mat
+  artifactKey: Guid(438922dd116fe4f4da7f7fa0d8b69f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nebula - Free low poly car pack/Materials/Saturated/CarsBlueSaturated.mat using Guid(438922dd116fe4f4da7f7fa0d8b69f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b6e847bdd6052f881dca7d91e311dc4') in 0.008835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Nebula - Free low poly car pack/Materials/Saturated/CarsPinkSaturated.mat
+  artifactKey: Guid(9bd69ac7dfee0f54db15af16e1f600b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nebula - Free low poly car pack/Materials/Saturated/CarsPinkSaturated.mat using Guid(9bd69ac7dfee0f54db15af16e1f600b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2955751f466d407fb18e56b7018d1f') in 0.010666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Nebula - Free low poly car pack/Materials/Saturated/CarsWhiteSaturated.mat
+  artifactKey: Guid(7f48f1198207ddb47a750a59bf881905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nebula - Free low poly car pack/Materials/Saturated/CarsWhiteSaturated.mat using Guid(7f48f1198207ddb47a750a59bf881905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2493e9d43155eaa677f33e5cb4630fee') in 0.010487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 42.049317 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/ExampleAssets/Models/Materials/road.mat
+  artifactKey: Guid(bc5af52b5ad16ea45b5dab458ce6d4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/ExampleAssets/Models/Materials/road.mat using Guid(bc5af52b5ad16ea45b5dab458ce6d4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c677c7ab7b078b524519e5adf84084') in 0.011280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/ExampleAssets/Models/Materials/wire.mat
+  artifactKey: Guid(dcf6ff65abb46fd44b9b46a4ea2769c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/ExampleAssets/Models/Materials/wire.mat using Guid(dcf6ff65abb46fd44b9b46a4ea2769c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8461dd562b9811bf6de0f3d19d6a251c') in 0.010996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/ExampleAssets/Models/Materials/stripes.mat
+  artifactKey: Guid(e4784b48ac99cf140bc2d0eaebee4644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/ExampleAssets/Models/Materials/stripes.mat using Guid(e4784b48ac99cf140bc2d0eaebee4644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ef58c1714b318b4f8ca096670bed47') in 0.011798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 62.735108 seconds.
+  path: Assets/Blink/Art/Textures/StylizedLavaTextures/Dry_Lava/Dry_Lava.mat
+  artifactKey: Guid(c4f5b5fe4dd970a418b1187690e3d631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Textures/StylizedLavaTextures/Dry_Lava/Dry_Lava.mat using Guid(c4f5b5fe4dd970a418b1187690e3d631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a0ba96c677b4ed540fad13dbc4a5d9') in 0.080061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Blink/Art/Textures/StylizedLavaTextures/Dry_Lava/Dry_Lava_Height.png
+  artifactKey: Guid(380f7833db0c20741a96b9b56cf2d1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Textures/StylizedLavaTextures/Dry_Lava/Dry_Lava_Height.png using Guid(380f7833db0c20741a96b9b56cf2d1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d0c0b04cf0017360163b957b1d5d30e') in 0.016817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Blink/Art/Textures/StylizedLavaTextures/Dry_Lava/Dry_Lava_BaseColor.png
+  artifactKey: Guid(191dc07ce4b300c46b8135046fe1cc7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Textures/StylizedLavaTextures/Dry_Lava/Dry_Lava_BaseColor.png using Guid(191dc07ce4b300c46b8135046fe1cc7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0e6ae61221f5af9d80cf331c13a3249') in 0.012559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Blink/Art/Textures/StylizedLavaTextures/Dry_Lava/Dry_Lava_Normal.png
+  artifactKey: Guid(0258a49874d37ef4ca3e716ad72fd4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Textures/StylizedLavaTextures/Dry_Lava/Dry_Lava_Normal.png using Guid(0258a49874d37ef4ca3e716ad72fd4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1d66ee91453014d67fed6a701aadd4') in 0.017860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 12.181488 seconds.
+  path: Assets/Blink/Art/Textures/Demo/StylizedFREETexturesDEMO/LightingData.asset
+  artifactKey: Guid(ce8452ce28bcb274892c52cea06abc18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Textures/Demo/StylizedFREETexturesDEMO/LightingData.asset using Guid(ce8452ce28bcb274892c52cea06abc18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Lighting data asset ‘LightingData’ is incompatible with the current Unity version because the scene it was baked for was not serialized. Please use Generate Lighting to rebuild the lighting data, or assign the target scene to the Lighting Data Asset in the inspector.
+ -> (artifact id: '7c8da7f5f9d3641890541037fe8ac07b') in 0.002274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 10.876924 seconds.
+  path: Assets/POLYGON city pack/Prefabs/Buildings
+  artifactKey: Guid(a56c14f3d9b631d4d8914c91cc3d33f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Prefabs/Buildings using Guid(a56c14f3d9b631d4d8914c91cc3d33f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c83308b5e5b8e5a48363d0713d599c') in 0.000612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.663365 seconds.
+  path: Assets/POLYGON city pack/Prefabs/Letters/Letter_A_Prefab.prefab
+  artifactKey: Guid(486263a6295235a40a3ba56b8111437e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Prefabs/Letters/Letter_A_Prefab.prefab using Guid(486263a6295235a40a3ba56b8111437e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbf42cb953d5afa43c6bbbe51c5f1f22') in 0.012477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/POLYGON city pack/Prefabs/Letters/Letter_E_Prefab.prefab
+  artifactKey: Guid(3a8c76fe5ec38c6458fcafb62cb2a0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Prefabs/Letters/Letter_E_Prefab.prefab using Guid(3a8c76fe5ec38c6458fcafb62cb2a0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da8bf8d04efacc2590411cb32817744') in 0.009379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/POLYGON city pack/Prefabs/Letters/Letter_U_Prefab.prefab
+  artifactKey: Guid(bad69329b592f22448ec9dd8ac687ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Prefabs/Letters/Letter_U_Prefab.prefab using Guid(bad69329b592f22448ec9dd8ac687ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e9bc1ffb8aed23c810de69f4f2a1612') in 0.010064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/POLYGON city pack/Prefabs/Letters/Letter_X_Prefab.prefab
+  artifactKey: Guid(2d6b3d1847e9e6f46902c988da524081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Prefabs/Letters/Letter_X_Prefab.prefab using Guid(2d6b3d1847e9e6f46902c988da524081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17e6bbd51a6fb36b14c9cda14b801a1d') in 0.012411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/POLYGON city pack/Prefabs/Letters/Letter_L_Prefab.prefab
+  artifactKey: Guid(13e171104ed12b849a7bd5e888d86142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Prefabs/Letters/Letter_L_Prefab.prefab using Guid(13e171104ed12b849a7bd5e888d86142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d30c9d5ce566ed35275a3405534283') in 0.010322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/POLYGON city pack/Prefabs/Letters/Letter_I_Prefab.prefab
+  artifactKey: Guid(bcec7c2b0048dfa4582dd821645c76b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Prefabs/Letters/Letter_I_Prefab.prefab using Guid(bcec7c2b0048dfa4582dd821645c76b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1322d3cfbc652538a4ba70dc5dd6500') in 0.017922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/POLYGON city pack/Prefabs/Letters/Letter_J_Prefab.prefab
+  artifactKey: Guid(7752320cf6198664eb1aca7ace852384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Prefabs/Letters/Letter_J_Prefab.prefab using Guid(7752320cf6198664eb1aca7ace852384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe0bda15d23ad3f1586352d5d5d9b11') in 0.014797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/POLYGON city pack/Prefabs/Letters/Letter_T_Prefab.prefab
+  artifactKey: Guid(624f250b25af37343ada3e052b9968b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Prefabs/Letters/Letter_T_Prefab.prefab using Guid(624f250b25af37343ada3e052b9968b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9038c999784289ff6f547d1fc2b9d0a4') in 0.011542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/POLYGON city pack/Prefabs/Letters/Letter_K_Prefab.prefab
+  artifactKey: Guid(c7464297316a22143a5cb70f3c732226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Prefabs/Letters/Letter_K_Prefab.prefab using Guid(c7464297316a22143a5cb70f3c732226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2562b635729280ab9e488e563ac5ef4e') in 0.013593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/POLYGON city pack/Prefabs/Letters/Letter_W_Prefab.prefab
+  artifactKey: Guid(524bd252d99a0cc44ac73104d16de0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Prefabs/Letters/Letter_W_Prefab.prefab using Guid(524bd252d99a0cc44ac73104d16de0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46cba0dbae59260c3589c08e2d5cc510') in 0.016127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/POLYGON city pack/Prefabs/Letters/Letter_O_Prefab.prefab
+  artifactKey: Guid(1388611d0c053e54ab3bb60eb6e40eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Prefabs/Letters/Letter_O_Prefab.prefab using Guid(1388611d0c053e54ab3bb60eb6e40eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '360ab8ed71d15cc3e64ffd90aea29686') in 0.022421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/POLYGON city pack/Prefabs/Letters/Letter_N_Prefab.prefab
+  artifactKey: Guid(0778b4c717fc2d141bfacce1e4453883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Prefabs/Letters/Letter_N_Prefab.prefab using Guid(0778b4c717fc2d141bfacce1e4453883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407dc9b9974041992ffe6f8af3fb9702') in 0.023223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/POLYGON city pack/Prefabs/Letters/Letter_G_Prefab.prefab
+  artifactKey: Guid(6487558c8141df54f8660f86fe691e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Prefabs/Letters/Letter_G_Prefab.prefab using Guid(6487558c8141df54f8660f86fe691e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '574367b5706f530a3af5e7e48689e26a') in 0.018072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/POLYGON city pack/Prefabs/Letters/Letter_P_Prefab.prefab
+  artifactKey: Guid(8974ac32dde6fd848bebffb7724a1aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Prefabs/Letters/Letter_P_Prefab.prefab using Guid(8974ac32dde6fd848bebffb7724a1aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe6bcc95a0800943361b768d75ebf84f') in 0.019172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
